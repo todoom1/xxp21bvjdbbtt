@@ -24,4 +24,5 @@ document.getElementById("ztn").innerHTML = ("征途国际");
 document.getElementById("jln").innerHTML = ("君临国际");
 document.getElementById("sjn").innerHTML = ("赏金国际");
 document.getElementById("2").innerHTML = ("十年信誉平台推荐");
-document.getElementById("1").innerHTML = ("XXP6.MY");
+
+document.getElementById("1").innerHTML = ("XXP8.MY");
