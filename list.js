@@ -16,13 +16,16 @@ document.getElementById("jl").addEventListener("click", function() {
 document.getElementById("sj").addEventListener("click", function() {
 	window.open(atob("aHR0cHM6Ly94anZ1ZWIuaGVmYXNoaXAuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDEwJnRvcElkPTMxMTMyMzUN"), '_blank');
 	});
-
+document.getElementById("t1").addEventListener("click", function() {
+    window.open(atob("aHR0cHM6Ly9sbmNxYy5qZ3F2amkuY29tL2FwcC9yZWdpc3Rlci5waHA/c2l0ZV9pZD0xMDUxJnRvcElkPTUyNzQxOQ0="), '_blank');
+});
 document.getElementById("stn").innerHTML = ("胜天国际");
 document.getElementById("ffn").innerHTML = ("非凡娱乐");
 document.getElementById("yhn").innerHTML = ("壹号娱乐");
 document.getElementById("ztn").innerHTML = ("征途国际");
 document.getElementById("jln").innerHTML = ("君临国际");
 document.getElementById("sjn").innerHTML = ("赏金国际");
+document.getElementById("t1n").innerHTML = ("TOP1体育");
 document.getElementById("2").innerHTML = ("十年信誉平台推荐");
-
 document.getElementById("1").innerHTML = ("XXP8.MY");
+
