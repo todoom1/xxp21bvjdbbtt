@@ -28,19 +28,21 @@ document.getElementById("sjn").innerHTML = ("赏金国际");
 document.getElementById("t1n").innerHTML = ("TOP1体育");
 document.getElementById("2").innerHTML = ("十年信誉平台推荐");
 document.getElementById("1").innerHTML = ("XXP8.MY");
+
 const texts = ["祝您新年快乐！", "马到成功", "XXP8.MY"];
 const today = new Date();
 const month = today.getMonth() + 1;
+const year = today.getFullYear();
 const date = today.getDate();
 let currentIndex = 0;
 
-if (month === 2 && date === 17) {
+if (year === 2026 && month === 2 && date >= 17 && date <= 23) {
     alert("🎇祝您新年快乐！🎇"); 
 setInterval(() => {
 document.getElementById("1").innerHTML = texts[currentIndex];
 currentIndex = (currentIndex + 1) % texts.length;
 }, 2026);
 
-} else if (month === 3 && date === 3) {
+} else if (year === 2026 && month === 3 && date === 3) {
     alert("🎇祝您元宵节快乐！🎇");
 }
